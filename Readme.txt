@@ -8,6 +8,7 @@ For Raspberry Pi/ Linux users: the move to git hub has change the line endings s
 awk 'BEGIN {RS="\n";ORS="\r\n"} {print $0}' llapThermistor-V0.56-24MHz.bin > llapThermistor-V0.56-24MHz-ok.bin
 before uploading - otherwise you will get errors when uploading.
 
+PLEASE READ THE RELEASE NOTES TO UNDERSTAND THE CHANGES AND DETERMINE IF THIS BETA FIRMWARE IS SUITABLE
 
 Release notes can be found at the OpenMicros site
 http://openmicros.org/index.php/articles/84-xrf-basics/224-firmware-release-notes
